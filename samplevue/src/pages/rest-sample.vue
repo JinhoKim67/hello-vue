@@ -14,10 +14,10 @@
       <button @click="createUser" :disabled="!canCreate">Create</button>
     </div>
 
-    <!-- <div style="margin:8px 0;">
+    <div style="margin:8px 0;">
       <b>Status:</b> {{ status }}
       <span v-if="loading"> (loading...)</span>
-    </div> -->
+    </div>
 
     <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
       <thead>
