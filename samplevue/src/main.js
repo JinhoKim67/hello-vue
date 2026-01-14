@@ -4,6 +4,11 @@
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
 
+// Styles (Vuetify 먼저)
+import 'vuetify/styles'
+import '@mdi/font/css/materialdesignicons.css'
+import 'unfonts.css'
+
 // Plugins
 import { registerPlugins } from '@/plugins'
 
