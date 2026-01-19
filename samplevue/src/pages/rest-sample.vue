@@ -5,13 +5,13 @@
     <!-- Search -->
     <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:end; margin-bottom:12px;">
       <div><input v-model="searchQ" placeholder="name" /></div>
-      <button @click="searchUser">Search</button>
+      <button @click="searchUser">검색</button>
     </div>
 
     <!-- Create -->
     <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:end; margin-bottom:12px;">
       <div><input v-model="form.name" placeholder="name" /></div>
-      <button @click="createUser" :disabled="!canCreate">Create</button>
+      <button @click="createUser" :disabled="!canCreate">생성</button>
     </div>
 
     <div style="margin:8px 0;">
