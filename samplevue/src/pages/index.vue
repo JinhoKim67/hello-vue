@@ -1,11 +1,7 @@
 <template>
-  <RestSample />
+  <Main />
 </template>
 
 <script setup>
-import RestSample from './rest-sample.vue'
+import Main from '@/components/Main.vue'
 </script>
-
-<style>
-
-</style>
