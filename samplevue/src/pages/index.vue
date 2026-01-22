@@ -1,7 +1,7 @@
 <template>
-  <Main />
+  <MainVue />
 </template>
 
 <script setup>
-import Main from '@/components/Main.vue'
+  import MainVue from './main.vue';
 </script>

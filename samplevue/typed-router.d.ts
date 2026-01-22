@@ -19,9 +19,10 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
+    '/contents/computers': RouteRecordInfo<'/contents/computers', '/contents/computers', Record<never, never>, Record<never, never>>,
+    '/contents/computers_org': RouteRecordInfo<'/contents/computers_org', '/contents/computers_org', Record<never, never>, Record<never, never>>,
     '/contents/users': RouteRecordInfo<'/contents/users', '/contents/users', Record<never, never>, Record<never, never>>,
-    '/contents/users2': RouteRecordInfo<'/contents/users2', '/contents/users2', Record<never, never>, Record<never, never>>,
-    '/contents/users3': RouteRecordInfo<'/contents/users3', '/contents/users3', Record<never, never>, Record<never, never>>,
+    '/contents/users_org': RouteRecordInfo<'/contents/users_org', '/contents/users_org', Record<never, never>, Record<never, never>>,
   }
 
   /**
@@ -39,16 +40,20 @@ declare module 'vue-router/auto-routes' {
       routes: '/'
       views: never
     }
+    'src/pages/contents/computers.vue': {
+      routes: '/contents/computers'
+      views: never
+    }
+    'src/pages/contents/computers_org.vue': {
+      routes: '/contents/computers_org'
+      views: never
+    }
     'src/pages/contents/users.vue': {
       routes: '/contents/users'
       views: never
     }
-    'src/pages/contents/users2.vue': {
-      routes: '/contents/users2'
-      views: never
-    }
-    'src/pages/contents/users3.vue': {
-      routes: '/contents/users3'
+    'src/pages/contents/users_org.vue': {
+      routes: '/contents/users_org'
       views: never
     }
   }
